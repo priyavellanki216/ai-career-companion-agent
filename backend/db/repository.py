@@ -13,7 +13,7 @@ STATUSES = {"Saved", "Applied", "Interview", "Offer", "Rejected"}
 def ensure_demo_user(db: Session) -> User:
     user = db.scalar(select(User).where(User.email == "demo.student@example.com"))
     if not user:
-        user = User(email="demo.student@example.com", name="Aarav Mehta")
+        user = User(email="demo.student@example.com", name="Demo Student")
         db.add(user); db.flush()
     if not user.profile:
         db.add(StudentProfile(user_id=user.id, name=user.name, education=["M.Tech Computer Science, Infosys Springboard"], skills=["Python", "SQL", "Git", "FastAPI", "Pandas"], experience=["Academic software engineering projects"], certifications=["Python for Everybody"], projects=["Career Companion Agent"])); db.flush()

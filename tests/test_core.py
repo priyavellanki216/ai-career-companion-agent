@@ -1,4 +1,6 @@
 from fastapi.testclient import TestClient
+import json
+from pathlib import Path
 from backend.agents.career_agents import match_profile, skill_recommendations, interview_prep, cover_letter
 from backend.main import app
 
@@ -17,8 +19,8 @@ def test_skill_gap_prioritizes_core_skills():
 
 
 def test_generation_never_invents_a_specific_claim():
-    letter = cover_letter({"name": "Aarav", "skills": ["Python"]}, {"title": "Backend Intern", "company": "Acme", "location": "Remote"})
-    assert "Aarav" in letter and "Python" in letter and "Acme" in letter
+    letter = cover_letter({"name": "Demo Student", "skills": ["Python"]}, {"title": "Backend Intern", "company": "Acme", "location": "Remote"})
+    assert "Demo Student" in letter and "Python" in letter and "Acme" in letter
 
 
 def test_interview_fallback_has_role_questions():
@@ -51,3 +53,9 @@ def test_rag_knowledge_base_builds_and_retrieves():
     assert metadata["chunks"] >= 1
     assert results[0]["job_id"] == 1
     assert results[0]["score"] > 0
+
+
+def test_included_sample_job_dataset_is_labeled_and_in_milestone_range():
+    jobs = json.loads((Path(__file__).resolve().parents[1] / "data" / "jobs.json").read_text())
+    assert 150 <= len(jobs) <= 200
+    assert all(job.get("sample_listing") is True for job in jobs)

@@ -37,9 +37,15 @@ streamlit run frontend/app.py --server.port 8501
 
 Open `http://localhost:8501`. The Streamlit app expects the API at `http://localhost:8000`; override it with `CAREER_API_URL` if needed.
 
+### Clean-start behavior
+
+On first FastAPI startup, the application automatically creates the local SQLite database, provisions the generic `Demo Student` profile, ingests `data/jobs.json`, and builds the in-memory TF-IDF/cosine RAG index. The tracked dataset contains 160 labeled synthetic academic listings. To reset local demo data, stop the backend and delete the ignored `career_companion.db` file before starting it again.
+
 ## Demo and optional LLM configuration
 
 The application works without an external LLM key. Set `LLM_PROVIDER=built-in`, `LLM_API_URL`, and `LLM_API_KEY` only when integrating an approved OpenAI-compatible provider. The current MVP deliberately keeps the fallback path complete and explainable so the workflow can be demonstrated offline. See `docs/infosys-project-alignment.md` for the milestone map and an evaluation plan that does not invent accuracy or conversion metrics.
+
+For the default demo, keep `LLM_PROVIDER=fallback` and leave the optional LLM variables blank in `config.example.env`. The template contains no credentials; create a local ignored `.env` from it only when configuration overrides are needed.
 
 ## Tests
 

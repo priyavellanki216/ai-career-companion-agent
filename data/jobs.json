@@ -1,24 +1,2402 @@
 [
-{"title":"Python Backend Intern","company":"Nimbus Labs","location":"Bengaluru, India","required_skills":["Python","FastAPI","SQL","Git"],"description":"Build API features, write tests, and work with backend engineers on reliable services.","employment_type":"Internship"},
-{"title":"Data Analytics Intern","company":"InsightWorks","location":"Hyderabad, India","required_skills":["Python","SQL","Pandas","Excel"],"description":"Clean business data, create dashboards, and communicate insights to stakeholders.","employment_type":"Internship"},
-{"title":"Frontend React Intern","company":"Orbit Systems","location":"Pune, India","required_skills":["JavaScript","React","Git","Communication"],"description":"Create accessible interfaces and collaborate with designers and product managers.","employment_type":"Internship"},
-{"title":"Machine Learning Intern","company":"Vertex AI","location":"Remote - India","required_skills":["Python","Machine Learning","Pandas","Scikit-learn"],"description":"Prepare datasets, train baseline models, and evaluate experiments with mentors.","employment_type":"Internship"},
-{"title":"Cloud Engineering Intern","company":"CloudHarbor","location":"Chennai, India","required_skills":["AWS","Docker","Python","Linux"],"description":"Support deployment automation and learn cloud observability fundamentals.","employment_type":"Internship"},
-{"title":"NLP Research Intern","company":"LanguageCraft","location":"Remote - India","required_skills":["Python","NLP","Machine Learning","Git"],"description":"Prototype text processing workflows and evaluate language model outputs.","employment_type":"Internship"},
-{"title":"QA Automation Intern","company":"QualityGrid","location":"Noida, India","required_skills":["Python","SQL","Git","Problem Solving"],"description":"Develop automated tests and investigate defects across web applications.","employment_type":"Internship"},
-{"title":"Java Software Intern","company":"FinStack","location":"Mumbai, India","required_skills":["Java","SQL","Git","Problem Solving"],"description":"Contribute to Java services and learn secure coding practices in fintech.","employment_type":"Internship"},
-{"title":"Product Data Intern","company":"MarketPulse","location":"Delhi, India","required_skills":["SQL","Excel","Communication","Power BI"],"description":"Support product reporting and turn user data into clear business recommendations.","employment_type":"Internship"},
-{"title":"DevOps Intern","company":"LaunchPad Tech","location":"Bengaluru, India","required_skills":["Docker","AWS","Git","Linux"],"description":"Help maintain CI pipelines and deployment runbooks for engineering teams.","employment_type":"Internship"},
-{"title":"Full Stack Developer Intern","company":"CivicCode","location":"Kochi, India","required_skills":["JavaScript","React","Python","SQL"],"description":"Ship small end-to-end product improvements with code review support.","employment_type":"Internship"},
-{"title":"Business Intelligence Intern","company":"NorthStar Retail","location":"Gurugram, India","required_skills":["SQL","Power BI","Excel","Communication"],"description":"Build repeatable reporting and present trends to business teams.","employment_type":"Internship"},
-{"title":"Data Science Intern","company":"Mosaic Research","location":"Remote - India","required_skills":["Python","NumPy","Pandas","Machine Learning"],"description":"Explore datasets, test hypotheses, and explain model results clearly.","employment_type":"Internship"},
-{"title":"API Engineering Intern","company":"BluePeak","location":"Ahmedabad, India","required_skills":["Python","FastAPI","PostgreSQL","Docker"],"description":"Develop documented APIs and learn production monitoring practices.","employment_type":"Internship"},
-{"title":"Mobile App Intern","company":"PocketWorks","location":"Bengaluru, India","required_skills":["JavaScript","React","Git","Problem Solving"],"description":"Support mobile feature development and usability improvements.","employment_type":"Internship"},
-{"title":"Cybersecurity Analyst Intern","company":"SecureSphere","location":"Hyderabad, India","required_skills":["Python","SQL","Linux","Problem Solving"],"description":"Assist with security reviews, log analysis, and incident documentation.","employment_type":"Internship"},
-{"title":"Technical Content Intern","company":"DevNotes","location":"Remote - India","required_skills":["Python","Git","Communication","Problem Solving"],"description":"Write developer guides and validate technical examples with engineers.","employment_type":"Internship"},
-{"title":"Database Intern","company":"DataForge","location":"Pune, India","required_skills":["SQL","PostgreSQL","Python","Git"],"description":"Learn schema design, query optimization, and data quality checks.","employment_type":"Internship"},
-{"title":"UI Engineering Intern","company":"BrightCanvas","location":"Chennai, India","required_skills":["JavaScript","TypeScript","React","Communication"],"description":"Build reusable UI components and test responsive interfaces.","employment_type":"Internship"},
-{"title":"Research Engineering Intern","company":"OpenVector","location":"Remote - India","required_skills":["Python","Machine Learning","Git","NLP"],"description":"Implement reproducible research experiments and summarize findings.","employment_type":"Internship"},
-{"title":"Solutions Engineering Intern","company":"IntegrateIQ","location":"Mumbai, India","required_skills":["Python","SQL","Communication","Problem Solving"],"description":"Help customers integrate APIs and troubleshoot technical workflows.","employment_type":"Internship"},
-{"title":"Software Engineer - Graduate","company":"ScaleSpring","location":"Bengaluru, India","required_skills":["Python","SQL","Git","Docker"],"description":"Join a graduate engineering cohort building scalable platform services.","employment_type":"Graduate Role"}
+  {
+    "title": "Python Backend Intern",
+    "company": "Nimbus Labs Sample Cohort 1",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "SQL",
+      "Git"
+    ],
+    "description": "Build API features, write tests, and work with backend engineers on reliable services. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Data Analytics Intern",
+    "company": "InsightWorks Sample Cohort 1",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Excel"
+    ],
+    "description": "Clean business data, create dashboards, and communicate insights to stakeholders. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Frontend React Intern",
+    "company": "Orbit Systems Sample Cohort 1",
+    "location": "Pune, India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Git",
+      "Communication"
+    ],
+    "description": "Create accessible interfaces and collaborate with designers and product managers. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Machine Learning Intern",
+    "company": "Vertex AI Sample Cohort 1",
+    "location": "Remote - India",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "description": "Prepare datasets, train baseline models, and evaluate experiments with mentors. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Cloud Engineering Intern",
+    "company": "CloudHarbor Sample Cohort 1",
+    "location": "Chennai, India",
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "Python",
+      "Linux"
+    ],
+    "description": "Support deployment automation and learn cloud observability fundamentals. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "NLP Research Intern",
+    "company": "Nimbus Labs Sample Cohort 1",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Python",
+      "NLP",
+      "Machine Learning",
+      "Git"
+    ],
+    "description": "Prototype text processing workflows and evaluate language model outputs. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "QA Automation Intern",
+    "company": "InsightWorks Sample Cohort 1",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Develop automated tests and investigate defects across web applications. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Java Software Intern",
+    "company": "Orbit Systems Sample Cohort 1",
+    "location": "Pune, India",
+    "required_skills": [
+      "Java",
+      "SQL",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Contribute to Java services and learn secure coding practices. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Product Data Intern",
+    "company": "Vertex AI Sample Cohort 1",
+    "location": "Remote - India",
+    "required_skills": [
+      "SQL",
+      "Excel",
+      "Communication",
+      "Power BI"
+    ],
+    "description": "Support product reporting and turn user data into clear recommendations. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "DevOps Intern",
+    "company": "CloudHarbor Sample Cohort 1",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Docker",
+      "AWS",
+      "Git",
+      "Linux"
+    ],
+    "description": "Help maintain CI pipelines and deployment runbooks for engineering teams. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Full Stack Developer Intern",
+    "company": "Nimbus Labs Sample Cohort 1",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Python",
+      "SQL"
+    ],
+    "description": "Ship small end-to-end product improvements with code review support. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Business Intelligence Intern",
+    "company": "InsightWorks Sample Cohort 1",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "SQL",
+      "Power BI",
+      "Excel",
+      "Communication"
+    ],
+    "description": "Build repeatable reporting and present trends to business teams. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Data Science Intern",
+    "company": "Orbit Systems Sample Cohort 1",
+    "location": "Pune, India",
+    "required_skills": [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Machine Learning"
+    ],
+    "description": "Explore datasets, test hypotheses, and explain model results clearly. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "API Engineering Intern",
+    "company": "Vertex AI Sample Cohort 1",
+    "location": "Remote - India",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "description": "Develop documented APIs and learn production monitoring practices. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Mobile App Intern",
+    "company": "CloudHarbor Sample Cohort 1",
+    "location": "Chennai, India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Support mobile feature development and usability improvements. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Cybersecurity Analyst Intern",
+    "company": "Nimbus Labs Sample Cohort 1",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Linux",
+      "Problem Solving"
+    ],
+    "description": "Assist with security reviews, log analysis, and incident documentation. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Technical Content Intern",
+    "company": "InsightWorks Sample Cohort 1",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Python",
+      "Git",
+      "Communication",
+      "Problem Solving"
+    ],
+    "description": "Write developer guides and validate technical examples with engineers. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Database Intern",
+    "company": "Orbit Systems Sample Cohort 1",
+    "location": "Pune, India",
+    "required_skills": [
+      "SQL",
+      "PostgreSQL",
+      "Python",
+      "Git"
+    ],
+    "description": "Learn schema design, query optimization, and data quality checks. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "UI Engineering Intern",
+    "company": "Vertex AI Sample Cohort 1",
+    "location": "Remote - India",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Communication"
+    ],
+    "description": "Build reusable UI components and test responsive interfaces. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Research Engineering Intern",
+    "company": "CloudHarbor Sample Cohort 1",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Git",
+      "NLP"
+    ],
+    "description": "Implement reproducible research experiments and summarize findings. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Solutions Engineering Intern",
+    "company": "Nimbus Labs Sample Cohort 1",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Communication",
+      "Problem Solving"
+    ],
+    "description": "Help customers integrate APIs and troubleshoot technical workflows. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Cloud Support Intern",
+    "company": "InsightWorks Sample Cohort 1",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "AWS",
+      "Linux",
+      "Python",
+      "Communication"
+    ],
+    "description": "Investigate cloud support tickets and improve operational runbooks. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Product Management Intern",
+    "company": "Orbit Systems Sample Cohort 1",
+    "location": "Pune, India",
+    "required_skills": [
+      "Excel",
+      "Communication",
+      "SQL",
+      "Problem Solving"
+    ],
+    "description": "Research user needs, define requirements, and support product experiments. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "UX Research Intern",
+    "company": "Vertex AI Sample Cohort 1",
+    "location": "Remote - India",
+    "required_skills": [
+      "Communication",
+      "Excel",
+      "Problem Solving",
+      "Power BI"
+    ],
+    "description": "Synthesize user research and communicate findings to product teams. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Automation Engineer Intern",
+    "company": "CloudHarbor Sample Cohort 1",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Python",
+      "Docker",
+      "Git",
+      "SQL"
+    ],
+    "description": "Automate repetitive engineering workflows and document maintainable solutions. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Security Engineering Intern",
+    "company": "Nimbus Labs Sample Cohort 1",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Python",
+      "Linux",
+      "Git",
+      "Docker"
+    ],
+    "description": "Support secure development practices and investigate security findings. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Data Engineering Intern",
+    "company": "InsightWorks Sample Cohort 1",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Docker",
+      "AWS"
+    ],
+    "description": "Build data pipelines and validate reliable movement of structured data. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Software Developer Graduate",
+    "company": "Orbit Systems Sample Cohort 1",
+    "location": "Pune, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Join a graduate engineering cohort building maintainable platform services. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate QA Engineer",
+    "company": "Vertex AI Sample Cohort 1",
+    "location": "Remote - India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "Communication"
+    ],
+    "description": "Design test cases, automate regression checks, and report defects. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate Cloud Engineer",
+    "company": "CloudHarbor Sample Cohort 1",
+    "location": "Chennai, India",
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "Linux",
+      "Git"
+    ],
+    "description": "Support cloud deployments and learn infrastructure-as-code practices. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate Data Analyst",
+    "company": "Nimbus Labs Sample Cohort 1",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "SQL",
+      "Python",
+      "Excel",
+      "Power BI"
+    ],
+    "description": "Create recurring analysis and present evidence-based recommendations. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate Full Stack Engineer",
+    "company": "InsightWorks Sample Cohort 1",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Python",
+      "Git"
+    ],
+    "description": "Develop product features across browser and API layers with mentorship. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Python Backend Intern",
+    "company": "Orbit Systems Sample Cohort 2",
+    "location": "Pune, India",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "SQL",
+      "Git"
+    ],
+    "description": "Build API features, write tests, and work with backend engineers on reliable services. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Data Analytics Intern",
+    "company": "Vertex AI Sample Cohort 2",
+    "location": "Remote - India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Excel"
+    ],
+    "description": "Clean business data, create dashboards, and communicate insights to stakeholders. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Frontend React Intern",
+    "company": "CloudHarbor Sample Cohort 2",
+    "location": "Chennai, India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Git",
+      "Communication"
+    ],
+    "description": "Create accessible interfaces and collaborate with designers and product managers. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Machine Learning Intern",
+    "company": "Nimbus Labs Sample Cohort 2",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "description": "Prepare datasets, train baseline models, and evaluate experiments with mentors. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Cloud Engineering Intern",
+    "company": "InsightWorks Sample Cohort 2",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "Python",
+      "Linux"
+    ],
+    "description": "Support deployment automation and learn cloud observability fundamentals. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "NLP Research Intern",
+    "company": "Orbit Systems Sample Cohort 2",
+    "location": "Pune, India",
+    "required_skills": [
+      "Python",
+      "NLP",
+      "Machine Learning",
+      "Git"
+    ],
+    "description": "Prototype text processing workflows and evaluate language model outputs. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "QA Automation Intern",
+    "company": "Vertex AI Sample Cohort 2",
+    "location": "Remote - India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Develop automated tests and investigate defects across web applications. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Java Software Intern",
+    "company": "CloudHarbor Sample Cohort 2",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Java",
+      "SQL",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Contribute to Java services and learn secure coding practices. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Product Data Intern",
+    "company": "Nimbus Labs Sample Cohort 2",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "SQL",
+      "Excel",
+      "Communication",
+      "Power BI"
+    ],
+    "description": "Support product reporting and turn user data into clear recommendations. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "DevOps Intern",
+    "company": "InsightWorks Sample Cohort 2",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Docker",
+      "AWS",
+      "Git",
+      "Linux"
+    ],
+    "description": "Help maintain CI pipelines and deployment runbooks for engineering teams. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Full Stack Developer Intern",
+    "company": "Orbit Systems Sample Cohort 2",
+    "location": "Pune, India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Python",
+      "SQL"
+    ],
+    "description": "Ship small end-to-end product improvements with code review support. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Business Intelligence Intern",
+    "company": "Vertex AI Sample Cohort 2",
+    "location": "Remote - India",
+    "required_skills": [
+      "SQL",
+      "Power BI",
+      "Excel",
+      "Communication"
+    ],
+    "description": "Build repeatable reporting and present trends to business teams. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Data Science Intern",
+    "company": "CloudHarbor Sample Cohort 2",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Machine Learning"
+    ],
+    "description": "Explore datasets, test hypotheses, and explain model results clearly. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "API Engineering Intern",
+    "company": "Nimbus Labs Sample Cohort 2",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "description": "Develop documented APIs and learn production monitoring practices. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Mobile App Intern",
+    "company": "InsightWorks Sample Cohort 2",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Support mobile feature development and usability improvements. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Cybersecurity Analyst Intern",
+    "company": "Orbit Systems Sample Cohort 2",
+    "location": "Pune, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Linux",
+      "Problem Solving"
+    ],
+    "description": "Assist with security reviews, log analysis, and incident documentation. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Technical Content Intern",
+    "company": "Vertex AI Sample Cohort 2",
+    "location": "Remote - India",
+    "required_skills": [
+      "Python",
+      "Git",
+      "Communication",
+      "Problem Solving"
+    ],
+    "description": "Write developer guides and validate technical examples with engineers. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Database Intern",
+    "company": "CloudHarbor Sample Cohort 2",
+    "location": "Chennai, India",
+    "required_skills": [
+      "SQL",
+      "PostgreSQL",
+      "Python",
+      "Git"
+    ],
+    "description": "Learn schema design, query optimization, and data quality checks. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "UI Engineering Intern",
+    "company": "Nimbus Labs Sample Cohort 2",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Communication"
+    ],
+    "description": "Build reusable UI components and test responsive interfaces. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Research Engineering Intern",
+    "company": "InsightWorks Sample Cohort 2",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Git",
+      "NLP"
+    ],
+    "description": "Implement reproducible research experiments and summarize findings. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Solutions Engineering Intern",
+    "company": "Orbit Systems Sample Cohort 2",
+    "location": "Pune, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Communication",
+      "Problem Solving"
+    ],
+    "description": "Help customers integrate APIs and troubleshoot technical workflows. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Cloud Support Intern",
+    "company": "Vertex AI Sample Cohort 2",
+    "location": "Remote - India",
+    "required_skills": [
+      "AWS",
+      "Linux",
+      "Python",
+      "Communication"
+    ],
+    "description": "Investigate cloud support tickets and improve operational runbooks. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Product Management Intern",
+    "company": "CloudHarbor Sample Cohort 2",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Excel",
+      "Communication",
+      "SQL",
+      "Problem Solving"
+    ],
+    "description": "Research user needs, define requirements, and support product experiments. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "UX Research Intern",
+    "company": "Nimbus Labs Sample Cohort 2",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Communication",
+      "Excel",
+      "Problem Solving",
+      "Power BI"
+    ],
+    "description": "Synthesize user research and communicate findings to product teams. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Automation Engineer Intern",
+    "company": "InsightWorks Sample Cohort 2",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Python",
+      "Docker",
+      "Git",
+      "SQL"
+    ],
+    "description": "Automate repetitive engineering workflows and document maintainable solutions. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Security Engineering Intern",
+    "company": "Orbit Systems Sample Cohort 2",
+    "location": "Pune, India",
+    "required_skills": [
+      "Python",
+      "Linux",
+      "Git",
+      "Docker"
+    ],
+    "description": "Support secure development practices and investigate security findings. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Data Engineering Intern",
+    "company": "Vertex AI Sample Cohort 2",
+    "location": "Remote - India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Docker",
+      "AWS"
+    ],
+    "description": "Build data pipelines and validate reliable movement of structured data. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Software Developer Graduate",
+    "company": "CloudHarbor Sample Cohort 2",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Join a graduate engineering cohort building maintainable platform services. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate QA Engineer",
+    "company": "Nimbus Labs Sample Cohort 2",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "Communication"
+    ],
+    "description": "Design test cases, automate regression checks, and report defects. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate Cloud Engineer",
+    "company": "InsightWorks Sample Cohort 2",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "Linux",
+      "Git"
+    ],
+    "description": "Support cloud deployments and learn infrastructure-as-code practices. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate Data Analyst",
+    "company": "Orbit Systems Sample Cohort 2",
+    "location": "Pune, India",
+    "required_skills": [
+      "SQL",
+      "Python",
+      "Excel",
+      "Power BI"
+    ],
+    "description": "Create recurring analysis and present evidence-based recommendations. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate Full Stack Engineer",
+    "company": "Vertex AI Sample Cohort 2",
+    "location": "Remote - India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Python",
+      "Git"
+    ],
+    "description": "Develop product features across browser and API layers with mentorship. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Python Backend Intern",
+    "company": "CloudHarbor Sample Cohort 3",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "SQL",
+      "Git"
+    ],
+    "description": "Build API features, write tests, and work with backend engineers on reliable services. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Data Analytics Intern",
+    "company": "Nimbus Labs Sample Cohort 3",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Excel"
+    ],
+    "description": "Clean business data, create dashboards, and communicate insights to stakeholders. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Frontend React Intern",
+    "company": "InsightWorks Sample Cohort 3",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Git",
+      "Communication"
+    ],
+    "description": "Create accessible interfaces and collaborate with designers and product managers. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Machine Learning Intern",
+    "company": "Orbit Systems Sample Cohort 3",
+    "location": "Pune, India",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "description": "Prepare datasets, train baseline models, and evaluate experiments with mentors. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Cloud Engineering Intern",
+    "company": "Vertex AI Sample Cohort 3",
+    "location": "Remote - India",
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "Python",
+      "Linux"
+    ],
+    "description": "Support deployment automation and learn cloud observability fundamentals. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "NLP Research Intern",
+    "company": "CloudHarbor Sample Cohort 3",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Python",
+      "NLP",
+      "Machine Learning",
+      "Git"
+    ],
+    "description": "Prototype text processing workflows and evaluate language model outputs. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "QA Automation Intern",
+    "company": "Nimbus Labs Sample Cohort 3",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Develop automated tests and investigate defects across web applications. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Java Software Intern",
+    "company": "InsightWorks Sample Cohort 3",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Java",
+      "SQL",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Contribute to Java services and learn secure coding practices. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Product Data Intern",
+    "company": "Orbit Systems Sample Cohort 3",
+    "location": "Pune, India",
+    "required_skills": [
+      "SQL",
+      "Excel",
+      "Communication",
+      "Power BI"
+    ],
+    "description": "Support product reporting and turn user data into clear recommendations. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "DevOps Intern",
+    "company": "Vertex AI Sample Cohort 3",
+    "location": "Remote - India",
+    "required_skills": [
+      "Docker",
+      "AWS",
+      "Git",
+      "Linux"
+    ],
+    "description": "Help maintain CI pipelines and deployment runbooks for engineering teams. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Full Stack Developer Intern",
+    "company": "CloudHarbor Sample Cohort 3",
+    "location": "Chennai, India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Python",
+      "SQL"
+    ],
+    "description": "Ship small end-to-end product improvements with code review support. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Business Intelligence Intern",
+    "company": "Nimbus Labs Sample Cohort 3",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "SQL",
+      "Power BI",
+      "Excel",
+      "Communication"
+    ],
+    "description": "Build repeatable reporting and present trends to business teams. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Data Science Intern",
+    "company": "InsightWorks Sample Cohort 3",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Machine Learning"
+    ],
+    "description": "Explore datasets, test hypotheses, and explain model results clearly. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "API Engineering Intern",
+    "company": "Orbit Systems Sample Cohort 3",
+    "location": "Pune, India",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "description": "Develop documented APIs and learn production monitoring practices. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Mobile App Intern",
+    "company": "Vertex AI Sample Cohort 3",
+    "location": "Remote - India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Support mobile feature development and usability improvements. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Cybersecurity Analyst Intern",
+    "company": "CloudHarbor Sample Cohort 3",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Linux",
+      "Problem Solving"
+    ],
+    "description": "Assist with security reviews, log analysis, and incident documentation. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Technical Content Intern",
+    "company": "Nimbus Labs Sample Cohort 3",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Python",
+      "Git",
+      "Communication",
+      "Problem Solving"
+    ],
+    "description": "Write developer guides and validate technical examples with engineers. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Database Intern",
+    "company": "InsightWorks Sample Cohort 3",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "SQL",
+      "PostgreSQL",
+      "Python",
+      "Git"
+    ],
+    "description": "Learn schema design, query optimization, and data quality checks. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "UI Engineering Intern",
+    "company": "Orbit Systems Sample Cohort 3",
+    "location": "Pune, India",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Communication"
+    ],
+    "description": "Build reusable UI components and test responsive interfaces. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Research Engineering Intern",
+    "company": "Vertex AI Sample Cohort 3",
+    "location": "Remote - India",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Git",
+      "NLP"
+    ],
+    "description": "Implement reproducible research experiments and summarize findings. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Solutions Engineering Intern",
+    "company": "CloudHarbor Sample Cohort 3",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Communication",
+      "Problem Solving"
+    ],
+    "description": "Help customers integrate APIs and troubleshoot technical workflows. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Cloud Support Intern",
+    "company": "Nimbus Labs Sample Cohort 3",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "AWS",
+      "Linux",
+      "Python",
+      "Communication"
+    ],
+    "description": "Investigate cloud support tickets and improve operational runbooks. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Product Management Intern",
+    "company": "InsightWorks Sample Cohort 3",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Excel",
+      "Communication",
+      "SQL",
+      "Problem Solving"
+    ],
+    "description": "Research user needs, define requirements, and support product experiments. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "UX Research Intern",
+    "company": "Orbit Systems Sample Cohort 3",
+    "location": "Pune, India",
+    "required_skills": [
+      "Communication",
+      "Excel",
+      "Problem Solving",
+      "Power BI"
+    ],
+    "description": "Synthesize user research and communicate findings to product teams. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Automation Engineer Intern",
+    "company": "Vertex AI Sample Cohort 3",
+    "location": "Remote - India",
+    "required_skills": [
+      "Python",
+      "Docker",
+      "Git",
+      "SQL"
+    ],
+    "description": "Automate repetitive engineering workflows and document maintainable solutions. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Security Engineering Intern",
+    "company": "CloudHarbor Sample Cohort 3",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Python",
+      "Linux",
+      "Git",
+      "Docker"
+    ],
+    "description": "Support secure development practices and investigate security findings. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Data Engineering Intern",
+    "company": "Nimbus Labs Sample Cohort 3",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Docker",
+      "AWS"
+    ],
+    "description": "Build data pipelines and validate reliable movement of structured data. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Software Developer Graduate",
+    "company": "InsightWorks Sample Cohort 3",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Join a graduate engineering cohort building maintainable platform services. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate QA Engineer",
+    "company": "Orbit Systems Sample Cohort 3",
+    "location": "Pune, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "Communication"
+    ],
+    "description": "Design test cases, automate regression checks, and report defects. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate Cloud Engineer",
+    "company": "Vertex AI Sample Cohort 3",
+    "location": "Remote - India",
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "Linux",
+      "Git"
+    ],
+    "description": "Support cloud deployments and learn infrastructure-as-code practices. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate Data Analyst",
+    "company": "CloudHarbor Sample Cohort 3",
+    "location": "Chennai, India",
+    "required_skills": [
+      "SQL",
+      "Python",
+      "Excel",
+      "Power BI"
+    ],
+    "description": "Create recurring analysis and present evidence-based recommendations. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate Full Stack Engineer",
+    "company": "Nimbus Labs Sample Cohort 3",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Python",
+      "Git"
+    ],
+    "description": "Develop product features across browser and API layers with mentorship. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Python Backend Intern",
+    "company": "InsightWorks Sample Cohort 4",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "SQL",
+      "Git"
+    ],
+    "description": "Build API features, write tests, and work with backend engineers on reliable services. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Data Analytics Intern",
+    "company": "Orbit Systems Sample Cohort 4",
+    "location": "Pune, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Excel"
+    ],
+    "description": "Clean business data, create dashboards, and communicate insights to stakeholders. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Frontend React Intern",
+    "company": "Vertex AI Sample Cohort 4",
+    "location": "Remote - India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Git",
+      "Communication"
+    ],
+    "description": "Create accessible interfaces and collaborate with designers and product managers. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Machine Learning Intern",
+    "company": "CloudHarbor Sample Cohort 4",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "description": "Prepare datasets, train baseline models, and evaluate experiments with mentors. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Cloud Engineering Intern",
+    "company": "Nimbus Labs Sample Cohort 4",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "Python",
+      "Linux"
+    ],
+    "description": "Support deployment automation and learn cloud observability fundamentals. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "NLP Research Intern",
+    "company": "InsightWorks Sample Cohort 4",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Python",
+      "NLP",
+      "Machine Learning",
+      "Git"
+    ],
+    "description": "Prototype text processing workflows and evaluate language model outputs. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "QA Automation Intern",
+    "company": "Orbit Systems Sample Cohort 4",
+    "location": "Pune, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Develop automated tests and investigate defects across web applications. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Java Software Intern",
+    "company": "Vertex AI Sample Cohort 4",
+    "location": "Remote - India",
+    "required_skills": [
+      "Java",
+      "SQL",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Contribute to Java services and learn secure coding practices. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Product Data Intern",
+    "company": "CloudHarbor Sample Cohort 4",
+    "location": "Chennai, India",
+    "required_skills": [
+      "SQL",
+      "Excel",
+      "Communication",
+      "Power BI"
+    ],
+    "description": "Support product reporting and turn user data into clear recommendations. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "DevOps Intern",
+    "company": "Nimbus Labs Sample Cohort 4",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Docker",
+      "AWS",
+      "Git",
+      "Linux"
+    ],
+    "description": "Help maintain CI pipelines and deployment runbooks for engineering teams. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Full Stack Developer Intern",
+    "company": "InsightWorks Sample Cohort 4",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Python",
+      "SQL"
+    ],
+    "description": "Ship small end-to-end product improvements with code review support. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Business Intelligence Intern",
+    "company": "Orbit Systems Sample Cohort 4",
+    "location": "Pune, India",
+    "required_skills": [
+      "SQL",
+      "Power BI",
+      "Excel",
+      "Communication"
+    ],
+    "description": "Build repeatable reporting and present trends to business teams. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Data Science Intern",
+    "company": "Vertex AI Sample Cohort 4",
+    "location": "Remote - India",
+    "required_skills": [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Machine Learning"
+    ],
+    "description": "Explore datasets, test hypotheses, and explain model results clearly. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "API Engineering Intern",
+    "company": "CloudHarbor Sample Cohort 4",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "description": "Develop documented APIs and learn production monitoring practices. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Mobile App Intern",
+    "company": "Nimbus Labs Sample Cohort 4",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Support mobile feature development and usability improvements. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Cybersecurity Analyst Intern",
+    "company": "InsightWorks Sample Cohort 4",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Linux",
+      "Problem Solving"
+    ],
+    "description": "Assist with security reviews, log analysis, and incident documentation. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Technical Content Intern",
+    "company": "Orbit Systems Sample Cohort 4",
+    "location": "Pune, India",
+    "required_skills": [
+      "Python",
+      "Git",
+      "Communication",
+      "Problem Solving"
+    ],
+    "description": "Write developer guides and validate technical examples with engineers. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Database Intern",
+    "company": "Vertex AI Sample Cohort 4",
+    "location": "Remote - India",
+    "required_skills": [
+      "SQL",
+      "PostgreSQL",
+      "Python",
+      "Git"
+    ],
+    "description": "Learn schema design, query optimization, and data quality checks. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "UI Engineering Intern",
+    "company": "CloudHarbor Sample Cohort 4",
+    "location": "Chennai, India",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Communication"
+    ],
+    "description": "Build reusable UI components and test responsive interfaces. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Research Engineering Intern",
+    "company": "Nimbus Labs Sample Cohort 4",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Git",
+      "NLP"
+    ],
+    "description": "Implement reproducible research experiments and summarize findings. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Solutions Engineering Intern",
+    "company": "InsightWorks Sample Cohort 4",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Communication",
+      "Problem Solving"
+    ],
+    "description": "Help customers integrate APIs and troubleshoot technical workflows. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Cloud Support Intern",
+    "company": "Orbit Systems Sample Cohort 4",
+    "location": "Pune, India",
+    "required_skills": [
+      "AWS",
+      "Linux",
+      "Python",
+      "Communication"
+    ],
+    "description": "Investigate cloud support tickets and improve operational runbooks. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Product Management Intern",
+    "company": "Vertex AI Sample Cohort 4",
+    "location": "Remote - India",
+    "required_skills": [
+      "Excel",
+      "Communication",
+      "SQL",
+      "Problem Solving"
+    ],
+    "description": "Research user needs, define requirements, and support product experiments. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "UX Research Intern",
+    "company": "CloudHarbor Sample Cohort 4",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Communication",
+      "Excel",
+      "Problem Solving",
+      "Power BI"
+    ],
+    "description": "Synthesize user research and communicate findings to product teams. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Automation Engineer Intern",
+    "company": "Nimbus Labs Sample Cohort 4",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Python",
+      "Docker",
+      "Git",
+      "SQL"
+    ],
+    "description": "Automate repetitive engineering workflows and document maintainable solutions. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Security Engineering Intern",
+    "company": "InsightWorks Sample Cohort 4",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Python",
+      "Linux",
+      "Git",
+      "Docker"
+    ],
+    "description": "Support secure development practices and investigate security findings. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Data Engineering Intern",
+    "company": "Orbit Systems Sample Cohort 4",
+    "location": "Pune, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Docker",
+      "AWS"
+    ],
+    "description": "Build data pipelines and validate reliable movement of structured data. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Software Developer Graduate",
+    "company": "Vertex AI Sample Cohort 4",
+    "location": "Remote - India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Join a graduate engineering cohort building maintainable platform services. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate QA Engineer",
+    "company": "CloudHarbor Sample Cohort 4",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "Communication"
+    ],
+    "description": "Design test cases, automate regression checks, and report defects. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate Cloud Engineer",
+    "company": "Nimbus Labs Sample Cohort 4",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "Linux",
+      "Git"
+    ],
+    "description": "Support cloud deployments and learn infrastructure-as-code practices. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate Data Analyst",
+    "company": "InsightWorks Sample Cohort 4",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "SQL",
+      "Python",
+      "Excel",
+      "Power BI"
+    ],
+    "description": "Create recurring analysis and present evidence-based recommendations. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate Full Stack Engineer",
+    "company": "Orbit Systems Sample Cohort 4",
+    "location": "Pune, India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Python",
+      "Git"
+    ],
+    "description": "Develop product features across browser and API layers with mentorship. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Python Backend Intern",
+    "company": "Vertex AI Sample Cohort 5",
+    "location": "Remote - India",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "SQL",
+      "Git"
+    ],
+    "description": "Build API features, write tests, and work with backend engineers on reliable services. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Data Analytics Intern",
+    "company": "CloudHarbor Sample Cohort 5",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Pandas",
+      "Excel"
+    ],
+    "description": "Clean business data, create dashboards, and communicate insights to stakeholders. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Frontend React Intern",
+    "company": "Nimbus Labs Sample Cohort 5",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Git",
+      "Communication"
+    ],
+    "description": "Create accessible interfaces and collaborate with designers and product managers. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Machine Learning Intern",
+    "company": "InsightWorks Sample Cohort 5",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Pandas",
+      "Scikit-learn"
+    ],
+    "description": "Prepare datasets, train baseline models, and evaluate experiments with mentors. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Cloud Engineering Intern",
+    "company": "Orbit Systems Sample Cohort 5",
+    "location": "Pune, India",
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "Python",
+      "Linux"
+    ],
+    "description": "Support deployment automation and learn cloud observability fundamentals. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "NLP Research Intern",
+    "company": "Vertex AI Sample Cohort 5",
+    "location": "Remote - India",
+    "required_skills": [
+      "Python",
+      "NLP",
+      "Machine Learning",
+      "Git"
+    ],
+    "description": "Prototype text processing workflows and evaluate language model outputs. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "QA Automation Intern",
+    "company": "CloudHarbor Sample Cohort 5",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Develop automated tests and investigate defects across web applications. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Java Software Intern",
+    "company": "Nimbus Labs Sample Cohort 5",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Java",
+      "SQL",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Contribute to Java services and learn secure coding practices. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Product Data Intern",
+    "company": "InsightWorks Sample Cohort 5",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "SQL",
+      "Excel",
+      "Communication",
+      "Power BI"
+    ],
+    "description": "Support product reporting and turn user data into clear recommendations. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "DevOps Intern",
+    "company": "Orbit Systems Sample Cohort 5",
+    "location": "Pune, India",
+    "required_skills": [
+      "Docker",
+      "AWS",
+      "Git",
+      "Linux"
+    ],
+    "description": "Help maintain CI pipelines and deployment runbooks for engineering teams. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Full Stack Developer Intern",
+    "company": "Vertex AI Sample Cohort 5",
+    "location": "Remote - India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Python",
+      "SQL"
+    ],
+    "description": "Ship small end-to-end product improvements with code review support. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Business Intelligence Intern",
+    "company": "CloudHarbor Sample Cohort 5",
+    "location": "Chennai, India",
+    "required_skills": [
+      "SQL",
+      "Power BI",
+      "Excel",
+      "Communication"
+    ],
+    "description": "Build repeatable reporting and present trends to business teams. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Data Science Intern",
+    "company": "Nimbus Labs Sample Cohort 5",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Machine Learning"
+    ],
+    "description": "Explore datasets, test hypotheses, and explain model results clearly. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "API Engineering Intern",
+    "company": "InsightWorks Sample Cohort 5",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "description": "Develop documented APIs and learn production monitoring practices. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Mobile App Intern",
+    "company": "Orbit Systems Sample Cohort 5",
+    "location": "Pune, India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Support mobile feature development and usability improvements. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Cybersecurity Analyst Intern",
+    "company": "Vertex AI Sample Cohort 5",
+    "location": "Remote - India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Linux",
+      "Problem Solving"
+    ],
+    "description": "Assist with security reviews, log analysis, and incident documentation. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Technical Content Intern",
+    "company": "CloudHarbor Sample Cohort 5",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Python",
+      "Git",
+      "Communication",
+      "Problem Solving"
+    ],
+    "description": "Write developer guides and validate technical examples with engineers. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Database Intern",
+    "company": "Nimbus Labs Sample Cohort 5",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "SQL",
+      "PostgreSQL",
+      "Python",
+      "Git"
+    ],
+    "description": "Learn schema design, query optimization, and data quality checks. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "UI Engineering Intern",
+    "company": "InsightWorks Sample Cohort 5",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Communication"
+    ],
+    "description": "Build reusable UI components and test responsive interfaces. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Research Engineering Intern",
+    "company": "Orbit Systems Sample Cohort 5",
+    "location": "Pune, India",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Git",
+      "NLP"
+    ],
+    "description": "Implement reproducible research experiments and summarize findings. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Solutions Engineering Intern",
+    "company": "Vertex AI Sample Cohort 5",
+    "location": "Remote - India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Communication",
+      "Problem Solving"
+    ],
+    "description": "Help customers integrate APIs and troubleshoot technical workflows. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Cloud Support Intern",
+    "company": "CloudHarbor Sample Cohort 5",
+    "location": "Chennai, India",
+    "required_skills": [
+      "AWS",
+      "Linux",
+      "Python",
+      "Communication"
+    ],
+    "description": "Investigate cloud support tickets and improve operational runbooks. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Product Management Intern",
+    "company": "Nimbus Labs Sample Cohort 5",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Excel",
+      "Communication",
+      "SQL",
+      "Problem Solving"
+    ],
+    "description": "Research user needs, define requirements, and support product experiments. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "UX Research Intern",
+    "company": "InsightWorks Sample Cohort 5",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Communication",
+      "Excel",
+      "Problem Solving",
+      "Power BI"
+    ],
+    "description": "Synthesize user research and communicate findings to product teams. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Automation Engineer Intern",
+    "company": "Orbit Systems Sample Cohort 5",
+    "location": "Pune, India",
+    "required_skills": [
+      "Python",
+      "Docker",
+      "Git",
+      "SQL"
+    ],
+    "description": "Automate repetitive engineering workflows and document maintainable solutions. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Security Engineering Intern",
+    "company": "Vertex AI Sample Cohort 5",
+    "location": "Remote - India",
+    "required_skills": [
+      "Python",
+      "Linux",
+      "Git",
+      "Docker"
+    ],
+    "description": "Support secure development practices and investigate security findings. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Data Engineering Intern",
+    "company": "CloudHarbor Sample Cohort 5",
+    "location": "Chennai, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Docker",
+      "AWS"
+    ],
+    "description": "Build data pipelines and validate reliable movement of structured data. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Internship",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Software Developer Graduate",
+    "company": "Nimbus Labs Sample Cohort 5",
+    "location": "Bengaluru, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "Problem Solving"
+    ],
+    "description": "Join a graduate engineering cohort building maintainable platform services. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate QA Engineer",
+    "company": "InsightWorks Sample Cohort 5",
+    "location": "Hyderabad, India",
+    "required_skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "Communication"
+    ],
+    "description": "Design test cases, automate regression checks, and report defects. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate Cloud Engineer",
+    "company": "Orbit Systems Sample Cohort 5",
+    "location": "Pune, India",
+    "required_skills": [
+      "AWS",
+      "Docker",
+      "Linux",
+      "Git"
+    ],
+    "description": "Support cloud deployments and learn infrastructure-as-code practices. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate Data Analyst",
+    "company": "Vertex AI Sample Cohort 5",
+    "location": "Remote - India",
+    "required_skills": [
+      "SQL",
+      "Python",
+      "Excel",
+      "Power BI"
+    ],
+    "description": "Create recurring analysis and present evidence-based recommendations. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  },
+  {
+    "title": "Associate Full Stack Engineer",
+    "company": "CloudHarbor Sample Cohort 5",
+    "location": "Chennai, India",
+    "required_skills": [
+      "JavaScript",
+      "React",
+      "Python",
+      "Git"
+    ],
+    "description": "Develop product features across browser and API layers with mentorship. This is a curated synthetic demonstration listing for the academic MVP, not a live vacancy.",
+    "employment_type": "Graduate Role",
+    "source_url": null,
+    "sample_listing": true
+  }
 ]

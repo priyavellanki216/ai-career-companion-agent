@@ -38,7 +38,7 @@ if "profile" not in st.session_state:
 with st.sidebar:
     st.markdown("# AI Career\n## Companion")
     st.caption("Explainable internship matching for students")
-    page = st.radio("Workspace", ["Dashboard", "Student Profile", "Resume Upload", "Internship Matching", "Skill Gap Analysis", "Resume / Cover Letter", "Interview Preparation", "Application Tracker", "Career Assistant"])
+    page = st.radio("Workspace", ["Dashboard", "Student Profile", "Resume Upload", "Internship Matching", "RAG Demonstration", "Skill Gap Analysis", "Resume / Cover Letter", "Interview Preparation", "Application Tracker", "Career Assistant"])
     st.divider()
     st.caption("Demo mode is deterministic when no LLM key is configured.")
 
@@ -79,7 +79,7 @@ elif page == "Resume Upload":
 
 elif page == "Internship Matching":
     if st.button("Refresh matches"): refresh()
-    st.caption(f"Showing {len(st.session_state.jobs)} seeded listings. Scores are explainable keyword-overlap fallbacks in demo mode.")
+    st.caption(f"Showing {len(st.session_state.jobs)} listings retrieved from the RAG knowledge base.")
     for job in st.session_state.jobs:
         with st.container(border=True):
             c1, c2 = st.columns([4,1])
@@ -89,6 +89,24 @@ elif page == "Internship Matching":
             st.write("**Matched:** " + (", ".join(job["matched_skills"]) or "None yet") + "  |  **Missing:** " + (", ".join(job["missing_skills"]) or "None") )
             if st.button("Save job", key=f"save-{job['id']}"):
                 api("POST", f"/api/saved-jobs/{job['id']}"); st.toast("Saved")
+
+elif page == "RAG Demonstration":
+    st.markdown("Explore the transparent RAG pipeline: normalization, chunking, indexing, and semantic retrieval.")
+    status = api("GET", "/api/rag/status")
+    if status:
+        cols = st.columns(3)
+        cols[0].metric("Indexed Jobs", status["jobs"])
+        cols[1].metric("Knowledge Chunks", status["chunks"])
+        cols[2].metric("Index Type", status["index"])
+    
+    query = st.text_input("Semantic Search Query", "python backend developer")
+    if query:
+        results = api("GET", f"/api/rag/retrieve?query={query}")
+        if results:
+            for res in results["results"]:
+                with st.expander(f"Score: {res['score']:.4f} — {res['metadata']['title']} at {res['metadata']['company']}"):
+                    st.write(f"**Chunk ID:** {res['chunk_id']}")
+                    st.write(f"**Location:** {res['metadata']['location']}")
 
 elif page == "Skill Gap Analysis":
     gaps = api("GET", "/api/skill-gaps") or {}

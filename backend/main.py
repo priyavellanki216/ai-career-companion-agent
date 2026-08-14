@@ -13,9 +13,11 @@ from backend.schemas.contracts import ProfileIn, DashboardOut, JobOut, Applicati
 from backend.services.resume_service import validate_and_parse
 from backend.agents.career_agents import match_profile, skill_recommendations, customized_resume, cover_letter, interview_prep, career_reply
 from backend.services.llm_provider import match_with_optional_llm
+from backend.rag.knowledge_base import JobKnowledgeBase
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s %(message)s")
 logger = logging.getLogger(__name__)
+knowledge_base = JobKnowledgeBase()
 
 
 def get_db():
@@ -36,6 +38,8 @@ async def lifespan(_: FastAPI):
     with SessionLocal() as db:
         ensure_demo_user(db)
         seed_jobs(db)
+        jobs = db.scalars(select(JobPosting)).all()
+        knowledge_base.build([job_dict(job) for job in jobs])
     yield
 
 
@@ -101,9 +105,12 @@ async def upload_resume(file: UploadFile = File(...), db: Session = Depends(get_
 def list_jobs(query: str = "", db: Session = Depends(get_db)):
     user = get_demo(db); profile = {"skills": user.profile.skills}
     jobs = db.scalars(select(JobPosting)).all()
+    ranked_ids = None
+    if query:
+        ranked_ids = {item["job_id"] for item in knowledge_base.retrieve(query, top_k=20)}
+        jobs = [job for job in jobs if job.id in ranked_ids]
     result = []
     for job in jobs:
-        if query and query.lower() not in f"{job.title} {job.company} {job.location}".lower(): continue
         match = match_with_optional_llm(profile, job_dict(job))
         result.append({**job_dict(job), "compatibility_score": match.score, "matched_skills": match.matched_skills, "missing_skills": match.missing_skills})
     return sorted(result, key=lambda x: x["compatibility_score"], reverse=True)
@@ -115,6 +122,16 @@ def get_job(job_id: int, db: Session = Depends(get_db)):
     if not job: return {"detail": "Job not found"}
     match = match_with_optional_llm({"skills": user.profile.skills}, job_dict(job))
     return {**job_dict(job), "compatibility_score": match.score, "matched_skills": match.matched_skills, "missing_skills": match.missing_skills}
+
+
+@app.get("/api/rag/status")
+def rag_status():
+    return {"index": "tfidf-cosine", "jobs": len({chunk.job_id for chunk in knowledge_base.chunks}), "chunks": len(knowledge_base.chunks), "ready": bool(knowledge_base.matrix is not None)}
+
+
+@app.get("/api/rag/retrieve")
+def rag_retrieve(query: str, top_k: int = 5):
+    return {"query": query, "results": knowledge_base.retrieve(query, top_k=max(1, min(top_k, 20)))}
 
 
 @app.get("/api/skill-gaps")

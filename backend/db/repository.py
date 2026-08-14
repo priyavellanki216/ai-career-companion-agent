@@ -21,14 +21,17 @@ def ensure_demo_user(db: Session) -> User:
 
 
 def seed_jobs(db: Session, path: str | None = None) -> int:
-    if db.scalar(select(func.count(JobPosting.id))) or 0:
-        return 0
     source = Path(path or Path(__file__).resolve().parents[2] / "data" / "jobs.json")
-    for item in json.loads(source.read_text()):
-        db.add(JobPosting(**item))
+    items = json.loads(source.read_text())
+    existing_count = db.scalar(select(func.count(JobPosting.id))) or 0
+    if existing_count >= len(items):
+        return 0
+    allowed = {"title", "company", "location", "description", "required_skills", "employment_type", "source_url"}
+    for item in items[existing_count:]:
+        db.add(JobPosting(**{key: item[key] for key in allowed if key in item}))
     db.commit()
-    count = len(json.loads(source.read_text()))
-    logger.info("jobs_seeded count=%s source=%s", count, source)
+    count = len(items) - existing_count
+    logger.info("jobs_seeded count=%s total=%s source=%s", count, len(items), source)
     return count
 
 

@@ -40,3 +40,14 @@ def test_optional_provider_respects_explicit_fallback(monkeypatch):
     result = match_with_optional_llm({"skills": ["Python"]}, {"required_skills": ["Python", "SQL"]})
     assert result.used_fallback is True
     assert result.missing_skills == ["sql"]
+
+
+def test_rag_knowledge_base_builds_and_retrieves():
+    from backend.rag.knowledge_base import JobKnowledgeBase
+    kb = JobKnowledgeBase()
+    metadata = kb.build([{"id": 1, "title": "Python Backend", "company": "Sample", "location": "Remote", "description": "Build APIs", "required_skills": ["Python", "FastAPI"], "employment_type": "Internship"}])
+    results = kb.retrieve("Python FastAPI backend", top_k=1)
+    assert metadata["jobs"] == 1
+    assert metadata["chunks"] >= 1
+    assert results[0]["job_id"] == 1
+    assert results[0]["score"] > 0

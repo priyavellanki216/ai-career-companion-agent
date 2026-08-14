@@ -1,6 +1,6 @@
 # AI Career Companion Agent
 
-AI Career Companion is a demonstrable MVP for the Infosys Springboard Virtual Internship 7.0. It helps students maintain a career profile, parse resumes, retrieve relevant internships, understand skill gaps, generate role-specific preparation materials, and track applications.
+AI Career Companion is a demonstrable MVP for the Infosys Springboard Virtual Internship 7.0. Students and early-career professionals often repeat the same suitability checks, resume tailoring, cover-letter writing, interview preparation, and deadline tracking for every application. This project turns that workflow into an explainable multi-agent career assistant: a student defines career evidence once, then the system retrieves relevant sample roles, compares requirements, drafts role-specific materials, recommends skill improvements, prepares interview questions, and tracks decisions.
 
 ## Architecture
 
@@ -16,11 +16,11 @@ Streamlit frontend → FastAPI API → Services / Agents / RAG → SQLAlchemy da
                                       └─ Career assistant
 ```
 
-The default local database is SQLite for a frictionless demo. PostgreSQL is supported by setting `DATABASE_URL` to a PostgreSQL SQLAlchemy URL. The RAG layer exposes a retrieval abstraction and uses deterministic token-overlap ranking in fallback mode. LLM-dependent features never fabricate candidate qualifications: generated content is explicitly framed as draft material that must be reviewed.
+The default local database is SQLite for a frictionless demo. PostgreSQL is supported by setting `DATABASE_URL` to a PostgreSQL SQLAlchemy URL. The RAG pipeline is explicit: normalize job records, chunk text, build a TF-IDF/cosine index, retrieve semantically relevant chunks, and pass the selected job evidence to matching. A token-overlap retriever remains available as a simple deterministic fallback. LLM-dependent features never fabricate candidate qualifications: generated content is explicitly framed as draft material that must be reviewed.
 
 ## Features
 
-The UI exposes Dashboard, Student Profile, Resume Upload, Internship Matching, Skill Gap Analysis, Resume / Cover Letter, Interview Preparation, Application Tracker, and Career Assistant sections. The seeded dataset contains 22 realistic internship or graduate listings. Tracker status values are exactly `Saved`, `Applied`, `Interview`, `Offer`, and `Rejected`.
+The UI exposes Dashboard, Student Profile, Resume Upload, Internship Matching, RAG Demonstration, Skill Gap Analysis, Resume / Cover Letter, Interview Preparation, Application Tracker, and Career Assistant sections. The knowledge base contains 160 clearly labeled synthetic sample internship or graduate-role listings for academic demonstration; they are not live vacancies. Tracker status values are exactly `Saved`, `Applied`, `Interview`, `Offer`, and `Rejected`.
 
 Resume uploads are restricted to PDF and DOCX, validated by extension and MIME type, limited by `MAX_UPLOAD_MB`, and parsed into conservative structured fields. The dashboard derives summary values from persisted data rather than hardcoded metrics.
 
@@ -39,7 +39,7 @@ Open `http://localhost:8501`. The Streamlit app expects the API at `http://local
 
 ## Demo and optional LLM configuration
 
-The application works without an external LLM key. Set `LLM_PROVIDER` and `LLM_API_KEY` only when integrating an approved provider through a future adapter. The current MVP deliberately keeps the fallback path complete and explainable so the workflow can be demonstrated offline.
+The application works without an external LLM key. Set `LLM_PROVIDER=built-in`, `LLM_API_URL`, and `LLM_API_KEY` only when integrating an approved OpenAI-compatible provider. The current MVP deliberately keeps the fallback path complete and explainable so the workflow can be demonstrated offline. See `docs/infosys-project-alignment.md` for the milestone map and an evaluation plan that does not invent accuracy or conversion metrics.
 
 ## Tests
 
@@ -47,11 +47,11 @@ The application works without an external LLM key. Set `LLM_PROVIDER` and `LLM_A
 pytest -q
 ```
 
-Tests cover deterministic matching, skill prioritization, safe draft generation, interview fallback behavior, and the FastAPI health endpoint. No accuracy, performance, or conversion metrics are claimed.
+Tests cover deterministic matching, skill prioritization, safe draft generation, interview fallback behavior, the RAG index, and the FastAPI health endpoint. No accuracy, performance, or conversion metrics are claimed.
 
 ## Database
 
-The SQLAlchemy models are in `backend/db/models.py`. The required tables are `users`, `student_profiles`, `resumes`, `job_postings`, `applications`, `ai_match_results`, and `saved_jobs`. Seed ingestion is idempotent and loads `data/jobs.json` only when the job table is empty.
+The SQLAlchemy models are in `backend/db/models.py`. The required tables are `users`, `student_profiles`, `resumes`, `job_postings`, `applications`, `ai_match_results`, and `saved_jobs`. Seed ingestion is safe for an existing local database: it appends missing records from `data/jobs.json` until the database reaches the dataset size, while ignoring dataset-only metadata fields.
 
 ## Security and limitations
 

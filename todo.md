@@ -35,3 +35,19 @@
 - [x] Run the final repository cleanliness check and prepare the GitHub-ready delivery summary
 - [x] Add module-level loggers to remaining backend modules where business logic runs
 - [x] Prepare the final GitHub-ready delivery summary artifact
+
+# Strict Verification Pass
+
+- [x] Execute complete test suite and import/compile checks
+- [x] Verify FastAPI startup and health endpoint
+- [x] Verify Streamlit frontend startup
+- [x] Verify PDF and DOCX resume upload, extraction, and structured parsing
+- [x] Verify job dataset loading and database persistence
+- [x] Verify retrieval, matching, compatibility, matched/missing skills, and recommendations
+- [x] Verify resume, cover letter, interview, application tracking, and career assistant workflows
+- [x] Verify deterministic fallback mode, secret handling, and README setup instructions
+- [x] Fix only blocking defects found and rerun affected checks plus complete test suite
+- [x] Prepare evidence-based verification report
+- [x] Fix and verify inline resume section parsing for education, experience, certifications, and projects
+- [x] Strengthen verification to assert profile read-back persistence and structured resume fields
+- [ ] Deliver the final evidence-based verification report to the user

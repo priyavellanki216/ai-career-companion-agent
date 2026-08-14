@@ -32,8 +32,17 @@ def parse_resume(text: str) -> dict:
     sections: dict[str, list[str]] = {"education": [], "experience": [], "certifications": [], "projects": []}
     for line in lines:
         normalized = line.lower().rstrip(":")
-        if any(key in normalized for key in sections):
-            section = next(key for key in sections if key in normalized)
+        matched_section = next((key for key in sections if normalized.startswith(key)), None)
+        if matched_section:
+            section = matched_section
+            inline_value = line.split(":", 1)[1].strip() if ":" in line else ""
+            if inline_value and len(sections[section]) < 8:
+                sections[section].append(inline_value)
+            continue
+        if normalized.startswith("skills"):
+            inline_value = line.split(":", 1)[1].strip() if ":" in line else ""
+            if inline_value:
+                skills.extend([part.strip() for part in inline_value.split(",") if part.strip()])
             continue
         if section and len(sections[section]) < 8:
             sections[section].append(line)
